@@ -1,4 +1,4 @@
-# button Element
+# Button Element
 
 ## Contents
 
