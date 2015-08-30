@@ -1,0 +1,23 @@
+{
+  "name": "button-element",
+  "version": "0.1.0",
+  "description": "Button element using Polymer and Flexbox",
+  "main": "button-element.html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charbelrami/button-element.git"
+  },
+  "keywords": [
+    "button",
+    "flexbox",
+    "polymer",
+    "web-component",
+    "web-components"
+  ],
+  "author": "Charbel Rami",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/charbelrami/button-element/issues"
+  },
+  "homepage": "https://github.com/charbelrami/button-element#readme"
+}

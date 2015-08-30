@@ -1,0 +1,67 @@
+<!--
+@license
+Copyright (c) 2015 Charbel Rami. All rights reserved.
+MIT
+-->
+<link rel="import" href="../polymer/polymer.html">
+<link rel="import" href="../paper-ripple/paper-ripple.html">
+<link rel="import" href="../style-element/style-element.html">
+<dom-module id="button-element">
+  <template>
+    <style include="style-element"></style>
+    <style>
+      :host, :host > ::content > * {
+        box-sizing: border-box;
+        position: relative;
+        vertical-align: middle;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        min-width: 0;
+        flex-grow: 1;
+        flex-basis: 0;
+        flex-shrink: 0;
+        align-self: stretch;
+        width: var(--button-width);
+        min-height: var(--button-min-height);
+        text-decoration: none;
+        cursor: pointer;
+        line-height: 1;
+        font-family: var(--button-font-family);
+        font-size: var(--button-font-size);
+        font-weight: var(--button-font-weight);
+        background-color: var(--button-background-color);
+        color: var(--button-text-color, #000);
+        border-radius: var(--button-border-radius);
+        transition: all .5s ease-in;
+      }
+      :host > ::content > * {
+        padding: var(--button-padding-vertical) var(--button-padding-horizontal);
+      }
+      :host > ::content > *:hover {
+        background-color: var(--button-background-color-hover);
+      }
+      :host > ::content > * > *:not(:last-child) {
+        padding-right: var(--button-padding-horizontal, 10px);
+      }
+      :host([start]) > ::content > * {
+        justify-content: flex-start;
+        text-align: left;
+      }
+      :host([end]) > ::content > * {
+        justify-content: flex-end;
+        text-align: right;
+      }
+      :host([border]) {
+        border-width: var(--button-border-width, 1px);
+        border-style: var(--button-border-style, solid);
+        border-color: var(--button-border-color);
+      }
+    </style>
+    <content></content>
+  </template>
+  <script>
+    Polymer({is: 'button-element'});
+  </script>
+</dom-module>
