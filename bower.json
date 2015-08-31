@@ -1,6 +1,6 @@
 {
   "name": "button-element",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/charbelrami/button-element",
   "authors": [
     "Charbel Rami"
@@ -23,8 +23,8 @@
     "tests"
   ],
   "dependencies": {
-    "paper-ripple": "PolymerElements/paper-ripple#~1.0.1",
-    "polymer": "Polymer/polymer#~1.1.0",
-    "style-element": "~0.1.0"
+    "paper-ripple": "PolymerElements/paper-ripple#1",
+    "polymer": "Polymer/polymer#1",
+    "style-element": ""
   }
 }
