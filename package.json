@@ -1,6 +1,6 @@
 {
   "name": "button-element",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Button element using Polymer and Flexbox",
   "main": "button-element.html",
   "repository": {
